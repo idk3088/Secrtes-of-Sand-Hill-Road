@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Secrets of Sand Hill Road 展示讲解</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top"><span>SH</span>Secrets of Sand Hill Road</a>
+      <nav>
+        <a href="#overview">总览</a>
+        <a href="#cycle">生命周期</a>
+        <a href="#chapters">章节</a>
+        <a href="#talk">讲解</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Scott Kupor · Venture Capital and How to Get It</p>
+          <h1>创业者视角下的 VC 融资说明书</h1>
+          <p class="lede">这本书的重点不是讲风险投资史，而是把 Sand Hill Road 背后的规则拆开：VC 为什么投、LP 为什么出钱、Term Sheet 怎么看、董事会如何影响公司，以及创业者如何降低信息差。</p>
+          <div class="hero-actions">
+            <a class="primary" href="#chapters">看章节概括</a>
+            <a class="secondary" href="#terms">关键术语</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/sand-hill-road-hero.svg" alt="VC 融资生命周期示意图" />
+        </div>
+      </section>
+
+      <section id="overview" class="section">
+        <div class="section-title">
+          <p class="eyebrow">Core idea</p>
+          <h2>全书核心观点</h2>
+        </div>
+        <div class="thesis"><p>创业者和 VC 不是零和博弈的对手，而是一个可能持续十年以上的合作关系。要谈好这段关系，创业者必须理解 VC 的资金来源、回报压力、决策方式、法律条款和治理逻辑。</p></div>
+        <div class="cards four">
+          <article><strong>融资前</strong><p>判断公司是否适合 VC：市场是否足够大，增长是否可能呈现风险投资需要的回报上限。</p></article>
+          <article><strong>融资中</strong><p>理解 VC 的筛选逻辑、pitch 方式、Term Sheet 经济条款和治理条款。</p></article>
+          <article><strong>融资后</strong><p>董事会、投资人和创始人进入长期协作，关键在于透明、信任和责任边界。</p></article>
+          <article><strong>退出时</strong><p>IPO、并购或失败退出决定资本如何回流 LP，也影响 VC 下一只基金能否继续募资。</p></article>
+        </div>
+      </section>
+
+      <section id="cycle" class="section dark">
+        <div class="section-title"><p class="eyebrow">VC lifecycle</p><h2>VC 钱从哪里来，又到哪里去</h2></div>
+        <div id="cycleList" class="cycle-list"></div>
+      </section>
+
+      <section id="terms" class="section">
+        <div class="section-title"><p class="eyebrow">Vocabulary</p><h2>展示时一定要解释的术语</h2></div>
+        <div class="term-grid">
+          <article><h3>LP</h3><p>Limited Partner，基金出资人，如大学捐赠基金、养老金、家族办公室等。</p></article>
+          <article><h3>GP</h3><p>General Partner，真正管理基金、寻找项目、做投资决策的 VC 合伙人。</p></article>
+          <article><h3>Term Sheet</h3><p>投资条款清单，决定估值、清算优先权、董事会席位、保护性条款等核心规则。</p></article>
+          <article><h3>Board</h3><p>董事会，公司治理中心，融资后创始人需要和投资人共同在这里做重大决策。</p></article>
+          <article><h3>Liquidation Preference</h3><p>清算优先权，决定公司出售或清算时投资人和普通股股东的分钱顺序。</p></article>
+          <article><h3>IPO / M&A</h3><p>最常见的好退出路径：上市或被收购，让创业者、员工、VC 和 LP 获得流动性。</p></article>
+        </div>
+      </section>
+
+      <section id="chapters" class="section">
+        <div class="section-title chapter-tools"><div><p class="eyebrow">Chapter guide</p><h2>章节概括</h2></div><input id="search" type="search" placeholder="搜索 LP、Term Sheet、IPO..." /></div>
+        <div id="chapterGrid" class="chapter-grid"></div>
+      </section>
+
+      <section id="talk" class="section">
+        <div class="section-title"><p class="eyebrow">Presentation</p><h2>30 分钟讲解提纲</h2></div>
+        <div class="talk-grid">
+          <article><h3>1. 为什么创业者要懂 VC</h3><p>用“VC 和创业者是一段十年婚姻”切入，说明信息差会影响融资、控制权和退出。</p></article>
+          <article><h3>2. VC 的商业模式</h3><p>讲清楚 LP、GP、基金期限、管理费、carry 和投资组合回报压力。</p></article>
+          <article><h3>3. 融资实战流程</h3><p>从公司设立、找 VC、pitch 到 Term Sheet，把创业者最容易踩坑的环节串起来。</p></article>
+          <article><h3>4. 融资后的权力结构</h3><p>解释董事会、治理条款、困难融资和退出，强调钱进来之后合作才真正开始。</p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer><p>用于《Secrets of Sand Hill Road》读书展示与创业融资讲解。</p><a href="#top">返回顶部</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
